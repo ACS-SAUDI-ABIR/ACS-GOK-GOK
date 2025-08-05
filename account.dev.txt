@@ -1,4 +1,4 @@
- [
+[
     {
         "domain": ".facebook.com",
         "expirationDate": 1788957721.130099,
