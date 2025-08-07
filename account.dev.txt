@@ -14,7 +14,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1789140346.062094,
+        "expirationDate": 1789163484.613706,
         "hostOnly": false,
         "httpOnly": true,
         "name": "datr",
@@ -27,7 +27,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1762356700.383972,
+        "expirationDate": 1762379481.902544,
         "hostOnly": false,
         "httpOnly": true,
         "name": "fr",
@@ -36,11 +36,11 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "01abn3LQgEzcPxVQ9.AWfSS75PMf-FLGkZUpzyQ1tecGzBMZmEpqhrx04LIsU60sxweos.BokfwZ..AAA.0.0.BolMbd.AWc58252OnqOFqB9xsINahgQgxg"
+        "value": "01abn3LQgEzcPxVQ9.AWdySqMSmLp4cfGeeAZxvccXly2ohWtAedXc9HLqAMK0H6GGwcY.BokfwZ..AAA.0.0.BolR_b.AWffxoPg20S1D9AxCJo98QdpJag"
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1759764702,
+        "expirationDate": 1759787483,
         "hostOnly": false,
         "httpOnly": false,
         "name": "vpd",
@@ -66,7 +66,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1786137255,
+        "expirationDate": 1786139483,
         "hostOnly": false,
         "httpOnly": false,
         "name": "fbl_st",
@@ -75,7 +75,7 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "101221105%3BT%3A29243354"
+        "value": "101230648%3BT%3A29243391"
     },
     {
         "domain": ".facebook.com",
@@ -129,7 +129,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1789140700.38484,
+        "expirationDate": 1789163481.90437,
         "hostOnly": false,
         "httpOnly": true,
         "name": "pas",
@@ -180,7 +180,7 @@
     },
     {
         "domain": ".facebook.com",
-        "expirationDate": 1762377261,
+        "expirationDate": 1762379492,
         "hostOnly": false,
         "httpOnly": false,
         "name": "wl_cbv",
@@ -189,6 +189,6 @@
         "secure": true,
         "session": false,
         "storeId": null,
-        "value": "v2%3Bclient_version%3A2886%3Btimestamp%3A1754580701%3BCRCM%3A982241460"
+        "value": "v2%3Bclient_version%3A2886%3Btimestamp%3A1754603483%3BCRCM%3A-352753136"
     }
 ]
