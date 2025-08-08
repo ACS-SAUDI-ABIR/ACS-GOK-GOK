@@ -65,7 +65,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
     }
 
     if (args[0] === 'msg') {
-      const key = input.replace("msg ", "");
+      const key = input.replace("msg ",😒 " reacted with 😒!");
       const res = await axios.get(`${link}?list=${encodeURIComponent(key)}`);
       return api.sendMessage(`Message ${key} = ${res.data.data}`, event.threadID, event.messageID);
     }
@@ -128,7 +128,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
 module.exports.onReply = async ({ api, event }) => {
   try {
-    const text = event.body?.toLowerCase() || "";
+    const text = event.body?.toLowerCase() || "আমাদের এইখানে বাংলাদেশ তলায় গেছে🥺👋";
     const res = await axios.get(`${await baseApiUrl()}/baby?text=${encodeURIComponent(text)}&senderID=${event.senderID}&font=1`);
     return api.sendMessage(res.data.reply, event.threadID, (err, info) => {
       if (info?.messageID) {
