@@ -128,7 +128,7 @@ module.exports.onStart = async ({ api, event, args, usersData }) => {
 
 module.exports.onReply = async ({ api, event }) => {
   try {
-    const text = event.body?.toLowerCase() || "আমাদের এইখানে বাংলাদেশ তলায় গেছে🥺👋";
+    const text = event.body?.toLowerCase() || "";
     const res = await axios.get(`${await baseApiUrl()}/baby?text=${encodeURIComponent(text)}&senderID=${event.senderID}&font=1`);
     return api.sendMessage(res.data.reply, event.threadID, (err, info) => {
       if (info?.messageID) {
